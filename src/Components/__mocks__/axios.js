@@ -1,0 +1,38 @@
+const mockResponse = {
+    data: [
+        { id: 1, date: "1675786887", transactionAmount: 104 },
+        { id: 3, date: "1681234307", transactionAmount: 61 },
+        { id: 1, date: "1681783211", transactionAmount: 111 },
+        { id: 1, date: "1679004001", transactionAmount: 122 },
+        { id: 3, date: "1679730938", transactionAmount: 117 },
+        { id: 2, date: "1676376407", transactionAmount: 86 },
+        { id: 3, date: "1681099593", transactionAmount: 142 },
+        { id: 3, date: "1678356664", transactionAmount: 138 },
+        { id: 2, date: "1680793759", transactionAmount: 108 },
+        { id: 1, date: "1681687719", transactionAmount: 129 },
+        { id: 3, date: "1680838628", transactionAmount: 104 },
+        { id: 3, date: "1676963514", transactionAmount: 102 },
+        { id: 2, date: "1681419452", transactionAmount: 63 },
+        { id: 1, date: "1677394045", transactionAmount: 144 },
+        { id: 3, date: "1680949077", transactionAmount: 129 },
+        { id: 1, date: "1680243307", transactionAmount: 135 },
+        { id: 1, date: "1678777168", transactionAmount: 142 },
+        { id: 3, date: "1677754505", transactionAmount: 107 },
+        { id: 3, date: "1676556574", transactionAmount: 125 },
+        { id: 3, date: "1677412021", transactionAmount: 94 },
+        { id: 2, date: "1682443959", transactionAmount: 97 },
+        { id: 2, date: "1678847904", transactionAmount: 129 },
+        { id: 2, date: "1678486191", transactionAmount: 86 },
+        { id: 3, date: "1681458795", transactionAmount: 73 },
+        { id: 3, date: "1679374942", transactionAmount: 89 },
+        { id: 3, date: "1677160473", transactionAmount: 100 },
+        { id: 2, date: "1680317212", transactionAmount: 110 },
+        { id: 2, date: "1680437899", transactionAmount: 87 },
+        { id: 1, date: "1676687972", transactionAmount: 110 },
+        { id: 1, date: "1681402703", transactionAmount: 88 },
+    ],
+};
+
+export default {
+    get: jest.fn().mockResolvedValue(mockResponse),
+};

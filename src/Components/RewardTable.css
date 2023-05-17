@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 50vh;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: azure;
+    width: 50%;
+    text-align: center;
+}
+
+thead th {
+    width: 20%;
+    background-color: gainsboro;
+}
+
+th,
+td {
+    border: 1px solid black;
+}
+
+td,
+th {
+    padding: 0.5rem;
+    transition: all 0.2s;
+}
+
+td:hover {
+    background-color: gold;
+    font-weight: bold;
+}
